@@ -1,0 +1,9 @@
+
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor {
+  padding: 20px; /* Ajusta el espacio según sea necesario */
+  border: 1px solid #000; /* Cambia el grosor y el color según sea necesario */
+}

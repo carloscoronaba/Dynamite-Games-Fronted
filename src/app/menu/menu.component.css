@@ -1,0 +1,165 @@
+
+/* Estilo para el formulario */
+.form-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #555; /* Borde más oscuro */
+  border-radius: 10px;
+  background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilo para los campos de entrada y botón */
+.form-container input[type="text"],
+.form-container button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #555; /* Fondo más oscuro para los campos */
+  color: #fff; /* Texto blanco */
+  border: none;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.form-container button {
+  cursor: pointer;
+}
+
+
+.form-container button {
+  background-color: #4CAF50; /* Color verde en modo oscuro */
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #45a049; /* Color verde más oscuro en hover */
+}
+
+/* Estilo para la información del usuario */
+.user-info {
+  margin-top: 20px;
+  border: 1px solid #555; /* Borde más oscuro */
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #333; /* Fondo oscuro */
+}
+
+.user-info h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff; /* Texto blanco */
+}
+
+.user-info p {
+  margin-bottom: 10px;
+  color: #fff; /* Texto blanco */
+}
+
+.user-info hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #555; /* Línea más oscura */
+}
+
+/* Estilos para la información del usuario en modo oscuro */
+.user-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-info li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #555; /* Fondo más oscuro para los elementos de la lista */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Sombra más clara */
+}
+
+.user-info li:hover {
+  background-color: #666; /* Fondo más oscuro en hover */
+}
+
+.button-descargar {
+  background-color: #45a049; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como un elemento en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Margen */
+  cursor: pointer; /* Cambio de cursor al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.button-descargar:hover {
+  background-color: #3d8440; /* Cambio de color al pasar el mouse */
+}
+
+.videojuegos-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ccc; /* Líneas divisoras rodeando todo */
+}
+
+.videojuego {
+  width: 50%; /* Para dividir en dos columnas */
+  padding: 10px;
+  box-sizing: border-box; /* Para incluir el padding en el ancho */
+  border-right: 1px solid #ccc; /* Línea divisora vertical */
+  border-bottom: 1px solid #ccc; /* Línea divisora horizontal */
+}
+
+.videojuego:nth-child(odd) {
+  border-left: 1px solid #ccc; /* Añade línea divisora vertical a los elementos impares */
+}
+
+
+.regresar-button {
+  background-color: #45a049; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como un elemento en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Margen */
+  cursor: pointer; /* Cambio de cursor al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.regresar-button:hover {
+  background-color: #3d8440; /* Cambio de color al pasar el mouse */
+}
+
+
+
+.user-info {
+  max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+  margin: 0 auto;
+}
+
+.videojuegos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.videojuego {
+  width: 50%; /* Cada videojuego ocupará el 50% del ancho */
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.videojuego img {
+  max-width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+  max-height: 20rem; /* Establece una altura al 100% del contenedor */
+  object-fit: contain; /* Escala la imagen para que quepa completamente dentro del contenedor */
+  display: block;
+  margin-bottom: 10px;
+}
+
